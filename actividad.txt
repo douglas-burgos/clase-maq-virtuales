@@ -1,0 +1,24 @@
+Nombre: Max Aguilar Burgos
+
+1.- Por que un lenguaje de programacion solo puede utilizarse en algunos sistemas operativos y en otros no
+La capacidad de un lenguaje de programacion para ser utilizado en diferentes sistemas operativos depende de su diseno enfoque de implementacion dependencia de bibliotecas y APIs asi como de las consideraciones de compatibilidad entre las diferentes arquitecturas de CPU y sistemas operativos
+
+2.- Que tipo de maquina virtual soporta virtualBox
+Windows - varias versiones, como Windows 10, Windows 8, Windows 7, etc
+Linux - distribuciones populares como Ubuntu, Fedora, CentOS, etc.
+macOS - como sistema invitado en hardware Mac anfitrion
+FreeBSD y otras variantes de Unix
+Solaris
+Otros sistemas operativos menos comunes y experimentales
+
+3.- Que funcion cumple el hypervisor en la virtualizacion
+Su funcion principal es crear y administrar multiples instancias virtuales de sistemas operativos en ununico hardware fisico
+El hypervisor actua como una capa de abstraccion entre el hardware fisico y las maquinas virtuales, permitiendo que varias VMs compartan los recursos de hardware de manera eficiente y aislada
+
+4.- Si tengo mas de una maquina virtual instalada y una se rompe esto afecta
+a las demas por que
+En un entorno de virtualizacion bien configurado y aislado el fallo de una maquina virtual generalmente no deberia afectar a las demas
+Los hypervisors estan disenados para proporcionar un nivel de aislamiento y separacion entre las maquinas virtuales lo que significa que cada maquina virtual se ejecuta en su propio entorno virtual y no tiene acceso directo a los recursos o procesos de otras maquinas virtuales
+
+
+
